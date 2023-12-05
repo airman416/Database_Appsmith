@@ -1,8 +1,24 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "all_users",
       "isDefault": true
+    },
+    {
+      "id": "all_coaches",
+      "isDefault": false
+    },
+    {
+      "id": "all_admins",
+      "isDefault": false
+    },
+    {
+      "id": "all_athletes",
+      "isDefault": false
+    },
+    {
+      "id": "add_coach",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -15,6 +31,9 @@
   },
   "color": "#F1DEFF",
   "icon": "basketball",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,

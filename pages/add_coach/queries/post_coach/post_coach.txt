@@ -1,0 +1,6 @@
+{
+    "began_coaching": {{DatePicker1.formattedDate}}
+    "first_name": {{First.text}}
+    "joined": {{DatePicker1Copy.formattedDate}},
+    "last_name": {{Last.text}}
+}

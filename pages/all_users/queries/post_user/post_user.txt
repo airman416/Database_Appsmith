@@ -1,0 +1,9 @@
+{
+    "date_of_birth": "Mon, 26 Jun 1944 00:00:00 GMT",
+    "first_name": "Fax",
+    "goal_weight": "119",
+    "height": "84",
+    "joined": "Mon, 06 Nov 2023 00:00:00 GMT",
+    "last_name": "Cato",
+    "weight": "382"
+  }
