@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n    \"began_coaching\": {{DatePicker1.formattedDate}}\n    \"first_name\": {{First.text}}\n    \"joined\": {{DatePicker1Copy.formattedDate}},\n    \"last_name\": {{Last.text}}\n}",
+      "body": "{\n\t\"began_coaching\": {{moment().format('ddd, DD MMM YYYY HH:mm:ss [GMT]')}},\n\t\"joined\": {{moment().format('ddd, DD MMM YYYY HH:mm:ss [GMT]')}},\n\t\"first_name\": {{first_name.text}},\n\t\"last_name\": {{last_name.text}}\n}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
@@ -39,7 +39,7 @@
         }
       ],
       "formData": {
-        "apiContentType": "none"
+        "apiContentType": "application/json"
       }
     },
     "executeOnLoad": false,
@@ -52,10 +52,9 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "DatePicker1.formattedDate",
-      "DatePicker1Copy.formattedDate",
-      "First.text",
-      "Last.text"
+      "first_name.text",
+      "last_name.text",
+      "moment().format('ddd, DD MMM YYYY HH:mm:ss [GMT]')"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

@@ -12,7 +12,7 @@
         {"key": "borderRadius"}
     ],
     "labelStyle": "",
-    "inputType": "NUMBER",
+    "inputType": "TEXT",
     "isDisabled": false,
     "isRequired": true,
     "dynamicHeight": "FIXED",
@@ -27,7 +27,7 @@
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileBottomRow": 15,
-    "widgetName": "First",
+    "widgetName": "first_name",
     "displayName": "Input",
     "searchTags": [
         "form",

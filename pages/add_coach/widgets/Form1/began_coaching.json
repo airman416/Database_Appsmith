@@ -10,8 +10,8 @@
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "defaultDate"},
-        {"key": "dateFormat"}
+        {"key": "dateFormat"},
+        {"key": "defaultDate"}
     ],
     "isDisabled": false,
     "isRequired": true,
@@ -26,7 +26,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "closeOnSelection": true,
     "mobileBottomRow": 12,
-    "widgetName": "DatePicker1",
+    "widgetName": "began_coaching",
     "minDate": "1920-12-31T18:30:00.000Z",
     "dynamicPropertyPathList": [
         {"key": "defaultDate"},

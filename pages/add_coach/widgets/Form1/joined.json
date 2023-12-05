@@ -26,7 +26,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "closeOnSelection": true,
     "mobileBottomRow": 12,
-    "widgetName": "DatePicker1Copy",
+    "widgetName": "joined",
     "minDate": "1920-12-31T18:30:00.000Z",
     "dynamicPropertyPathList": [
         {"key": "defaultDate"},
@@ -44,7 +44,7 @@
     "labelPosition": "Top",
     "key": "s30nhgbk6c",
     "labelTextSize": "0.875rem",
-    "defaultDate": "{{moment()}}",
+    "defaultDate": "{{moment().format('ddd, DD MMM YYYY HH:mm:ss [GMT]')}}",
     "isDeprecated": false,
     "rightColumn": 61,
     "widgetId": "qwdl6woji2",
