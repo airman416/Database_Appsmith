@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "all_athletes",
-    "slug": "all-athletes",
+    "name": "get_user_id",
+    "slug": "get-user-id",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 660,
+          "bottomRow": 380,
           "containerStyle": "none",
           "snapRows": 81,
           "parentRowSpace": 1,
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "all_athletes_Api1",
+              "id": "get_user_id_Api1",
               "name": "Api1",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -39,7 +39,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "all_athletes",
+        "id": "get_user_id",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -50,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656f7fb4f508a668f59beff9_656f9ea0f508a668f59bf013"
+  "gitSyncId": "656f7fb4f508a668f59beff9_656fe65af508a668f59bf027"
 }
