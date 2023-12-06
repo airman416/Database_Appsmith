@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api1",
+    "name": "Api2",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/athlete/athlete"
+        "url": "web:4000/coach/selects"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "all_athletes",
+    "pageId": "add_athlete",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -47,7 +47,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "all_athletes_Api1",
+  "id": "add_athlete_Api2",
   "deleted": false,
-  "gitSyncId": "656f7fb4f508a668f59beff9_656f9ec0f508a668f59bf015"
+  "gitSyncId": "6570c41162724f1499530f75_6570c5c862724f1499530fa2"
 }

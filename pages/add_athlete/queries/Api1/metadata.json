@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\"date_of_birth\": {{date_of_birth.formattedDate}},\n\t\"first_name\": {{first_name.text}},\n\t\"goal_weight\": {{goal_weight.text}},\n\t\"height\": {{height.text}},\n\t\"joined\": {{moment().format('ddd, DD MMM YYYY HH:mm:ss [GMT]')}},\n\t\"last_name\": {{last_name.text}},\n\t\"weight\": {{weight.text}},\n\t\"coach_id\": {{coach_id.text}}\n}",
+      "body": "{\n\t\"date_of_birth\": {{date_of_birth.formattedDate}},\n\t\"first_name\": {{first_name.text}},\n\t\"goal_weight\": {{goal_weight.text}},\n\t\"height\": {{height.text}},\n\t\"joined\": {{moment().format('ddd, DD MMM YYYY HH:mm:ss [GMT]')}},\n\t\"last_name\": {{last_name.text}},\n\t\"weight\": {{weight.text}},\n\t\"coach_id\": {{coach.selectedOptionValue}}\n}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
@@ -52,7 +52,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "coach_id.text",
+      "coach.selectedOptionValue",
       "date_of_birth.formattedDate",
       "first_name.text",
       "goal_weight.text",

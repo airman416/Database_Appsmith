@@ -6,5 +6,5 @@
 	"joined": {{moment().format('ddd, DD MMM YYYY HH:mm:ss [GMT]')}},
 	"last_name": {{last_name.text}},
 	"weight": {{weight.text}},
-	"coach_id": {{coach_id.text}}
+	"coach_id": {{coach.selectedOptionValue}}
 }
