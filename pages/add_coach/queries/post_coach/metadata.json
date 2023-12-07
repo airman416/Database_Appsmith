@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\"began_coaching\": {{moment().format('ddd, DD MMM YYYY HH:mm:ss [GMT]')}},\n\t\"joined\": {{moment().format('ddd, DD MMM YYYY HH:mm:ss [GMT]')}},\n\t\"first_name\": {{first_name.text}},\n\t\"last_name\": {{last_name.text}}\n}",
+      "body": "{\n\t\"began_coaching\": {{moment().format('ddd, DD MMM YYYY HH:mm:ss [GMT]')}},\n\t\"first_name\": {{first_name.text}},\n\t\"last_name\": {{last_name.text}}\n}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
