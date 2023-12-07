@@ -1,0 +1,5 @@
+{
+	"began_coaching": {{moment().format('ddd, DD MMM YYYY HH:mm:ss [GMT]')}},
+	"first_name": {{first_name.text}},
+	"last_name": {{last_name.text}}
+}

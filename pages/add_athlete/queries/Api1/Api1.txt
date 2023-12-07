@@ -1,0 +1,10 @@
+{
+	"date_of_birth": {{date_of_birth.formattedDate}},
+	"first_name": {{first_name.text}},
+	"goal_weight": {{goal_weight.text}},
+	"height": {{height.text}},
+	"joined": {{moment().format('ddd, DD MMM YYYY HH:mm:ss [GMT]')}},
+	"last_name": {{last_name.text}},
+	"weight": {{weight.text}},
+	"coach_id": {{coach.selectedOptionValue}}
+}

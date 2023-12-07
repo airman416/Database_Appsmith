@@ -1,0 +1,6 @@
+{
+	"first": {{first_name.text}},
+	"last": {{last_name.text}},
+	"email": {{email.text}},
+	"admin_perms": {{perms.text}}
+}
